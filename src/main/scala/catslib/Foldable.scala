@@ -166,7 +166,7 @@ object FoldableSection
   /**
    * = traverse_ =
    *
-   * `traverse` the foldable mapping `A` values to `G[B]`, and combining
+   * `traverse_` the foldable mapping `A` values to `G[B]`, and combining
    * them using `Applicative[G]` and discarding the results.
    *
    * This method is primarily useful when `G[_]` represents an action
